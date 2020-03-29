@@ -9,7 +9,7 @@ function removeDuplicate(names) {
 	return selected;
 }
 
-var output = removeDuplicate([
+var filterName = removeDuplicate([
 	"pitu",
 	"ritu",
 	"jitu",
@@ -25,4 +25,29 @@ var output = removeDuplicate([
 	"gitu",
 	"litu"
 ]);
-console.log(output);
+
+var filterNum = removeDuplicate([
+	1,
+	2,
+	2,
+	7,
+	5,
+	5,
+	5,
+	5,
+	6,
+	1,
+	1,
+	7,
+	5,
+	5,
+	8,
+	8,
+	99,
+	34,
+	56,
+	99
+]);
+
+console.log(filterName);
+console.log(filterNum);
