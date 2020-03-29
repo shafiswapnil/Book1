@@ -3,11 +3,7 @@ function vowel(sentence) {
 	var count = 0;
 	for (var i = 0; i < sentence.length; i++) {
 		if (
-			sentence[i] == "a" ||
-			sentence[i] == "e" ||
-			sentence[i] == "i" ||
-			sentence[i] == "o" ||
-			sentence[i] == "u"
+			sentence[i] == "a" || sentence[i] == "e" || sentence[i] == "i" || sentence[i] == "o" || sentence[i] == "u"
 		) {
 			count++;
 		}
