@@ -12,6 +12,5 @@ function nonRepeat(sample) {
 }
 
 var sample = "I am a good boy";
-// var sample = ["Hello", "world!"];
 // var sample = ["H", 'H', 'H', 'E', 'L', 'L', 'O'];
 console.log(nonRepeat(sample));
