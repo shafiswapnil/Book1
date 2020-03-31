@@ -1,16 +1,15 @@
 // PROBLEM: remove repeated words from a sentence
 // SOLVE:
-function nonRepeat(sample) {
-    var newText = [];
-    for (var i = 0; i < sample.length; i++) {
-        var word = sample[i];
-        if (newText.indexOf(word) == -1) {
-            newText.push(word);
+function nonRepeat(sentence) {
+    var output = [];
+    for (var i = 0; i < sentence.length; i++) {
+        var letter = sentence[i];
+        if (output.indexOf(letter) == -1) {
+            output = output + letter;
         }
     }
-    return newText;
+    return output;
 }
 
-var sample = "I am a good boy";
-// var sample = ["H", 'H', 'H', 'E', 'L', 'L', 'O'];
-console.log(nonRepeat(sample));
+var sentence = "I am a good boy";
+console.log(nonRepeat(sentence));
