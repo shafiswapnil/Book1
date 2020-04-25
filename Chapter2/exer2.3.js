@@ -6,7 +6,7 @@
  * SOLUTION:
 */
 
-function getOddTimeRepeated(names) {
+function getOddTimesRepeated(names) {
 	var uniqueNames = [];
 	var output = [];
 	var nameCount = {};
@@ -32,4 +32,4 @@ function getOddTimeRepeated(names) {
 }
 
 var names = ["pitu", "ritu", "jitu", "situ", "mitu", "nitu", "bitu", "jitu", "jitu", "bitu", "situ", "mitu", "gitu", "litu"];
-console.log(getOddTimeRepeated(names));
+console.log(getOddTimesRepeated(names));
