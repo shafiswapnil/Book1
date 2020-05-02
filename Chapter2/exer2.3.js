@@ -24,7 +24,10 @@ function getOddTimesRepeated(names) {
 	for ( var i = 0; i < names.length; i++ ) {
 		var name = names[i];
 		if ( nameCount[name]%2 != 0 ) {
-			output.push(name);
+			if ( output.indexOf(name) == -1 ) {
+				output.push(name);
+			}
+			// output.push(name);
 		}
 	}
 
