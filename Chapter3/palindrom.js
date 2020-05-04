@@ -1,4 +1,11 @@
-// check palindrom
+/* PROBLEM: (exercise 3.1)
+ * There are words, If we reverse them, it doesn't change. It stays the same.
+ * Like, madam, civic, eye, refer, rotator. These words are called Palindrom.
+ * So, now write a function which can take these words as input and after reversing 
+ * it should return if the word is palindrom or not.
+ * 
+ * SOLUTION:
+*/
 
 function reverse(input) {
 	var reverseWord = "";
@@ -13,7 +20,7 @@ function palindrom(word) {
 	var result;
 	var process = reverse(word);
 	if ( process == word ) {
-		result = word + " is a palindrom";
+		result = word + " is a palindrom.";
 	} else {
 		result = word + " is not a palindrom.";
 	}
@@ -21,3 +28,7 @@ function palindrom(word) {
 }
 
 console.log(palindrom("eye"));
+console.log(palindrom("madam"));
+console.log(palindrom("civic"));
+console.log(palindrom("rotator"));
+console.log(palindrom("refer"));
