@@ -16,3 +16,9 @@ lazyCounter(9);
 lazyCounter(8);
 lazyCounter(7);
 
+// way to recursion
+function writeNumber(number) {
+	console.log(number);
+	writeNumber(number-1);
+}
+writeNumber(10);
