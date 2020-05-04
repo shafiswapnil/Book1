@@ -5,6 +5,8 @@
 * SOLUTION:
 */
 
+// In my way 
+/*
 function series(n) {
 	var series = [2, 4];
 	for (var i = 2; i <= n; i++) {
@@ -14,3 +16,16 @@ function series(n) {
 }
 
 console.log(series(10));
+*/
+
+// As answered in website
+function evenNumbers(n) {
+	var series = [];
+	for (var i = 1; i <= n; i++) {
+		var element = i * 2;
+		series.push(element);
+	}
+	return series;
+}
+
+console.log(evenNumbers(10));
