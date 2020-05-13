@@ -22,4 +22,6 @@ function reverseInPlace(text) {
 	return reverseText;
 }
 
-console.log(reverseInPlace("I am good boy"));
+console.log(reverseInPlace("I am the good boy"));
+console.log(reverseInPlace("Hello world!"));
+console.log(reverseInPlace("Dure thekle valobasha bare, e kotha je bolese, se je ki kheye bolese sei valo jane."));
