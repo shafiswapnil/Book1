@@ -1,14 +1,14 @@
-// function reverseSentence(text) {
-// 	var reverseText = "";
-// 	var words = text.split("");
+/* function reverseSentence(text) {
+	var reverseText = "";
+	var words = text.split(" ");
 
-// 	for (var i = words.length - 1; i >= 0; i--) {
-// 		var word = words[i];
-// 		reverseText = reverseText + " " + word;
-// 	}
+	for (var i = words.length - 1; i >= 0; i--) {
+		var word = words[i];
+		reverseText = reverseText + " " + word;
+	}
 
-// 	return reverseText;
-// }
+	return reverseText;
+} */
 
 // Alternative Solution
 function reverseSentence(text) {
